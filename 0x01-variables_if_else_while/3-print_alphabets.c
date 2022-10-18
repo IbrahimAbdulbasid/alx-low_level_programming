@@ -20,10 +20,10 @@ int main(void)
 			c++;
 		}
 	while
-		(A <= 'z') {
+		(C <= 'z') {
 
 	putchar(c'\n');
-	d++;
+	C++;
 		}
 	return (0);
 }
