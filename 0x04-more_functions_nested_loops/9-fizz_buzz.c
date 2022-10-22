@@ -12,12 +12,12 @@ int main(void)
 	{
 		printf(" ");
 		if (n % 3 == 0)
-			printf("fizz");
+			printf("Fizz");
 		if (n % 5 == 0)
 			printf("Buzz");
 		if (n % 3 != 0 && n % 5 != 0)
 			printf("%d", n);
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
