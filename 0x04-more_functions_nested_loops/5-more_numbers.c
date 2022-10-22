@@ -2,23 +2,22 @@
 
 /**
  * more_numbers - print numbers 10 times from 0-14
+ * Return: Always 0
 */
 void more_numbers(void)
 {
-	int n, count;
+	int num, a;
 
-	for (count = 0; count <= 9; count++)
+	for (a = 0; a <= 9; a++)
 	{
-	for (n = 0; n <= 14; n++)
-	}
-	if (n > 9)
-	{
-	_putchar((n / 10) + '0');
-	}
-	{
-	_putchar((n % 10) + '0');
-	}
-	{
-	_putchar('\n');
+		for (num = 0; num <= 14; num++)
+		{
+			if (num > 9)
+			{
+				_putchar((num / 10) + '0');
+			}
+			_putchar((num % 10) + '0');
+		}
+		_putchar('\n');
 	}
 }
