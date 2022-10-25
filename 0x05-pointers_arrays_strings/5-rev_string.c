@@ -6,9 +6,9 @@
 */
 void rev_string(char *s)
 {
-	char s[11] = "Holberton!";
+	char s[11] = Holberton;
 
-	_putchar("%s\n", s);
+	printf("%s\n", s);
 	rev_string(s);
-	_putchar("%s\n", s);
+	printf("%s\n", s);
 }
