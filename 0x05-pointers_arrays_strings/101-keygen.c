@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - generate random valid password
  * Return: Always 0
