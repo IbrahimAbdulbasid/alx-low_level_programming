@@ -6,19 +6,9 @@
 */
 void rev_string(char *s)
 {
-	char rv = s[0];
+	char s[11] = "Holberton!";
 
-	int c = 0;
-
-	int i;
-
-	while (s[c] != '\0')
-		c++;
-	for (i = 0; i < c; c++)
-	{
-		c--;
-		rv = s[i];
-		s[i] = s[c];
-		s[c] = rv;
-	}
+	_putchar("%s\n", s);
+	rev_string(s);
+	_putchar("%s\n", s);
 }
