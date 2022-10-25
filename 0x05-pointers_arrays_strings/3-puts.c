@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _putchar - print a string
+ * _puts - print a string
  * @str: strign to be printed
 */
-void _putchar(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
