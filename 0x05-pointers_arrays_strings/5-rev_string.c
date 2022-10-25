@@ -1,14 +1,24 @@
 #include "main.h"
 /**
- * rev_string -reverse a string
+ * rev_string - reverse a string
  * @s: input
  * Return: string in reverse
 */
 void rev_string(char *s)
 {
-	char s[11] = Holberton;
+	char rv = s[0];
 
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
+	int c = 0;
+
+	int i;
+
+	while (s[c] != '\0')
+		c++;
+	for (i = 0; i < c; i++)
+	{
+		c--;
+		rv = s[i];
+		s[i] = s[c];
+		s[c] = rv;
+	}
 }
