@@ -7,23 +7,15 @@
 */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int b = 0;
+	char *s = Welcome;
 
-	int c;
+	char *accept = Ibrahim;
 
-	while (*s)
-	{
-		for (c = 0; accept[c]; c++)
-		{
-			if (*s == accept[c])
-			{
-				b++;
-				break;
-			}
-			else if (accept[c + 1] == '\0')
-				s++;
-		}
-	}
-	_putchar('\n');
-	return (n);
+	unsigned int r;
+
+	r = _strspn(accept, r);
+
+	_putchar("%u\n", r);
+
+	return (0);
 }
