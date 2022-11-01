@@ -1,28 +1,20 @@
 #include "main.h"
 /**
- * simple_print_buffer - print buffer
- * @buffer: the address of memory to be printed
- * @size: the size of the memory to be printed
- * Return: notthing
+ * _memset - fill a block of memory with a specific value
+ * @s: satarting address of memory to be fill
+ * @b: the desired value
+ * @n: number of bytes to be changed
+ * Return: changed array with new value for n bytes
 */
-void simple_print_buffer(char *buffer, unsigned int size)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int;
+	int i = 0;
 
-	a = 0;
-
-	while (a < size)
+	for (: n > 0;  i++)
 	{
-		if (a % 10)
-		{
-			_putchar(" ");
+		s[i] = b;
+		n++;
 		}
-		if (!(a % 10) && a)
-		{
-			_putchar("\n");
-		}
-		_putchar("0x%02x", buffer[a]);
-		a++;
-	}
-	_putchar("\n");
+	return (s);
+
 }
