@@ -2,18 +2,17 @@
 /**
  * print_chessboard - print the chessboard
  * @a: the chessboard
- * Return: void
+ * Return: always 0
  */
 void print_chessboard(char (*a)[8]);
 {
-	int y;
+	int i;
 
-	int z;
+	int j;
 
-	for (y = 0; y < 8; y++)
+	for (i = 0; i < 8; i++)
 	{
-		for (z = 0; z < 8; z++)
-			_putchar(a[y][z]);
+		_putchar(a[i][j]);
 		_putchar('\n');
 	}
 }
