@@ -28,8 +28,8 @@ int is_prime_number(int n)
 {
 	if (n < 2)
 		return (0);
-	if (n % 2 == 0
-			return (0);
+	if (n % 2 == 0)
+		return (0);
 	else
-	return (_isitprime(n, n / 2));
+		return (_isitprime(n, n / 2));
 }
